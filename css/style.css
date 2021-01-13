@@ -722,6 +722,8 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         color: rgb(242, 192, 32);
     }
     .logo-holder img {
+        height: 100px;
+        width: 100px;
         margin-top: 80px;
         margin-bottom: 15px;
     }
