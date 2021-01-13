@@ -352,8 +352,8 @@ a {
 /********** MERCH **********/
 
 #merch .item img {
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    max-height: 450px;      
 }
 
 .merch-section {
@@ -362,8 +362,8 @@ a {
 
 .merch-section .item {
     margin-bottom: 30px;
-    width: 600x;
-    height: 500px;
+    width: 450px; 
+    max-height: 450px;   
 }
 
 .merch-section .item .item-inner {
@@ -415,6 +415,7 @@ a {
     background: rgba(16, 17, 19, 0.8);
     padding: 45px 30px 30px;
     height: 100%;
+    width: 100%;
     overflow: hidden;
     color: rgb(255, 255, 255);
 }
@@ -758,6 +759,10 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     }
     .music-section .albums-block .cover-figure .record-holder {
         display: none;
+    }
+
+    .merch-section .item .item-inner {
+        margin: 0 30px;
     }
 }
 
