@@ -97,9 +97,10 @@ a {
     background-color: transparent;
 }
 
-.logo-holder {
-    background-image: url("../assets/images/logo-4.svg");
+/* .logo-holder {
+    background-image: url("../assets/images/logo-2.png");
     height: 100px;
+    width: 100px;
     text-align: center;
     background-color: transparent;
     background-position: center center;
@@ -108,6 +109,13 @@ a {
     margin-bottom: 30px;
     text-indent: -9999px;
     overflow: hidden;
+} */
+
+.logo-holder img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .promo-section {
@@ -713,6 +721,10 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .nav>li.active>a {
         color: rgb(242, 192, 32);
     }
+    .logo-holder img {
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
     .promo-content {
         padding-top: 30px;
     }
@@ -754,9 +766,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
 /********** SMALL SCREENS **********/
 
 @media (max-width: 576px) {
-
     .gigs-section .gigs-container {
         margin-left: 0px;
     }
 }
-
