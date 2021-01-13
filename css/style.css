@@ -1,0 +1,762 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(16, 17, 19);
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: rgb(242, 192, 32);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/********** HEADER **********/
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.navbar-nav {
+    padding-top: 0px;
+}
+
+.nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggler .toggle-title {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    font-size: 16px;
+}
+
+/********** HERO IMAGE **********/
+
+.callout-container {
+    height: 100vh;
+    background: url('../assets/images/hero/hero-9.jpg') no-repeat top right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#promo {
+    background-color: transparent;
+}
+
+.logo-holder {
+    background-image: url("../assets/images/logo-4.svg");
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.promo-section {
+    height: 100%;
+    min-height: 660px;
+    width: 100%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    background: rgb(16, 17, 19);
+}
+
+.promo-content {
+    padding-top: 80px;
+}
+
+.promo-content .headline {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
+}
+
+.promo-content .tagline {
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+/********** GIGS **********/
+
+.gigs-section .container {
+    max-width: 860px;
+}
+
+.gigs-section .item {
+    position: relative;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.gigs-section .date-label {
+    background: rgb(16, 17, 19);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 55px;
+    padding-top: 4px;
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.gigs-section .date-label .number {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gigs-section .date-label .month {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Raleway, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.gigs-section .gig-title {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.gigs-section .meta-list {
+    color: rgb(120, 129, 145);
+}
+
+.gigs-section .meta-list a {
+    color: rgb(120, 129, 145);
+}
+
+.gigs-section .meta-list i {
+    margin-right: 5px;
+    color: rgb(242, 192, 32);
+    font-size: 16px;
+}
+
+.gigs-section .gig-actions {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.gigs-section .gig-actions .btn {
+    margin-right: 5px;
+}
+
+.gigs-section .gigs-contact {
+    margin-top: 60px;
+}
+
+/********** MUSIC **********/
+
+.music-section {
+    background: rgb(245, 245, 245);
+}
+
+.music-section .sc-block {
+    margin-bottom: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.music-section .sc-block .item {
+    margin-bottom: 15px;
+}
+
+.music-section .albums-block .item {
+    margin-bottom: 45px;
+}
+
+.music-section .albums-block .item-inner {
+    position: relative;
+    padding-right: 60px;
+}
+
+.music-section .albums-block .cover-figure {
+    max-width: 235px;
+    max-height: 235px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    background: rgb(16, 17, 19);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+}
+
+.music-section .albums-block .cover-figure .cover-image {
+    position: relative;
+    opacity: 1;
+}
+
+.music-section .albums-block .cover-figure .record-holder {
+    max-width: 235px;
+    max-height: 235px;
+    display: none;
+    position: absolute;
+    right: -80px;
+    bottom: 0px;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.music-section .albums-block .cover-label {
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    background: rgb(242, 192, 32);
+    color: rgb(255, 255, 255);
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.music-section .albums-block .album-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    max-width: 235px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: inline-block;
+}
+
+.music-section .music-action {
+    margin-top: 30px;
+}
+
+/********** ABOUT **********/
+
+#about .item img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about-section .section-title {
+    margin-bottom: 30px;
+}
+
+.about-section .section-intro {
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: rgb(79, 84, 94);
+}
+
+.about-section .item-inner {
+    padding: 30px;
+}
+
+.about-section .member-name {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.about-section .member-desc {
+    color: rgb(79, 84, 94);
+}
+
+.about-section .member-profile {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-section .member-profile img {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.about-section .member-label {
+    display: inline-block;
+    width: 60%;
+    padding: 5px 10px;
+    background: rgb(16, 17, 19);
+    color: rgb(255, 255, 255);
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/********** MERCH **********/
+
+#merch .item img {
+    width: 600px;
+    height: 500px;
+}
+
+.merch-section {
+    background: rgb(245, 245, 245);
+}
+
+.merch-section .item {
+    margin-bottom: 30px;
+    width: 600px;
+    height: 500px;
+}
+
+.merch-section .item .item-inner {
+    position: relative;
+}
+
+.merch-section .item:hover .mask {
+    visibility: visible;
+    opacity: 1;
+}
+
+.merch-section .mask {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+}
+
+.merch-section .mask .item-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.merch-section .mask .desc {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.merch-section .mask span {
+    display: block;
+}
+
+.merch-section .mask span.btn {
+    display: inline-block;
+}
+
+.merch-section .mask-inner {
+    background: rgba(16, 17, 19, 0.8);
+    padding: 45px 30px 30px;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.merch-section .merch-action {
+    margin-top: 30px;
+}
+
+/********** CONTACT **********/
+
+.contact-section {
+    background: rgb(16, 17, 19);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-section a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-section a:hover {
+    color: rgb(242, 192, 32);
+}
+
+.contact-section .section-title {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.contact-section .section-intro {
+    margin: 0px auto 60px;
+    font-size: 16px;
+}
+
+.contact-section .contact-block {
+    margin-bottom: 90px;
+}
+
+.contact-section .contact-block .item {
+    margin-bottom: 30px;
+}
+
+.contact-section .contact-block .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-section .contact-block .icon-holder {
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-block i {
+    margin-right: 5px;
+    color: rgb(242, 192, 32);
+    font-size: 24px;
+}
+
+.contact-section .channels-list {
+    margin-bottom: 45px;
+}
+
+.contact-section .channels-list a {
+    opacity: 0.4;
+}
+
+.contact-section .channels-list a:hover {
+    opacity: 1;
+}
+
+.contact-section .channels-list li {
+    margin-bottom: 15px;
+}
+
+.contact-section .social-media-list {
+    margin-bottom: 0px;
+}
+
+.contact-section .social-media-list a {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.contact-section .social-media-list a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.contact-section .social-media-list li {
+    margin-bottom: 15px;
+}
+
+.contact-section .social-media-list i {
+    font-size: 32px;
+}
+
+/********** SOCIAL **********/
+
+.social-block {
+    padding-top: 90px;
+}
+
+.social-block .instagram-block {
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.social-block .instagram-block .title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.social-block .instafeed-wrapper {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.social-block .instagram-item {
+    display: inline-block;
+    padding: 0px;
+    background: rgb(16, 17, 19);
+    opacity: 0.85;
+    position: relative;
+}
+
+.social-block .instagram-item:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+}
+
+/********** FOOTER **********/
+
+.footer {
+    background: rgb(0, 0, 0);
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a {
+    color: rgb(242, 192, 32);
+}
+
+.footer a:hover {
+    color: rgb(211, 163, 12);
+}
+
+.footer-content {
+    padding: 15px;
+}
+
+/********** BUTTONS **********/
+
+.btn, a.btn {
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 0px;
+    background-clip: padding-box;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+a.btn-primary, .btn-primary {
+    background: rgb(242, 192, 32);
+    border: 2px solid rgb(242, 192, 32);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    box-shadow: rgb(187, 145, 11) 0px 0px 0px 0px inset;
+}
+
+a.btn-primary:hover, .btn-primary:hover {
+    box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+a.btn-primary:hover, a.btn-primary:active, a.btn-primary:focus, a.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: rgb(187, 145, 11);
+    border: 2px solid rgb(187, 145, 11);
+    color: rgb(255, 255, 255);
+    outline: none;
+    box-shadow: none;
+}
+
+a.btn-secondary, .btn-secondary {
+    background: rgb(28, 29, 33);
+    border: 2px solid rgb(28, 29, 33);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+}
+
+a.btn-secondary:hover, .btn-secondary:hover {
+    box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+a.btn-secondary:hover, a.btn-secondary:active, a.btn-secondary:focus, a.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+    background: rgb(187, 145, 11);
+    border: 2px solid rgb(187, 145, 11);
+    color: rgb(255, 255, 255);
+    outline: none;
+    box-shadow: none;
+}
+
+a.btn-ghost-primary, .btn-ghost-primary {
+    background: none;
+    border: 2px solid rgb(242, 192, 32);
+    color: rgb(242, 192, 32);
+    box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+    text-transform: uppercase;
+}
+
+a.btn-ghost-primary:active, a.btn-ghost-primary:focus, .btn-ghost-primary:active, .btn-ghost-primary:focus {
+    border: 2px solid rgb(242, 192, 32);
+    color: rgb(242, 192, 32);
+    outline: none;
+}
+
+a.btn-ghost-primary:hover, .btn-ghost-primary:hover {
+    box-shadow: rgb(242, 192, 32) 0px 100px 0px 0px inset;
+    background: rgb(242, 192, 32);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(242, 192, 32);
+}
+
+a.btn-ghost-secondary, .btn-ghost-secondary {
+    background: none;
+    border: 2px solid rgb(16, 17, 19);
+    color: rgb(16, 17, 19);
+    box-shadow: rgb(16, 17, 19) 0px 0px 0px 0px inset;
+    text-transform: uppercase;
+}
+
+a.btn-ghost-secondary:active, a.btn-ghost-secondary:focus, .btn-ghost-secondary:active, .btn-ghost-secondary:focus {
+    border: 2px solid rgb(16, 17, 19);
+    outline: none;
+    color: rgb(16, 17, 19);
+}
+
+a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
+    background: rgb(16, 17, 19);
+    box-shadow: rgb(16, 17, 19) 0px 100px 0px 0px inset;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(16, 17, 19);
+}
+
+/********** SECTIONS **********/
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-weight: 800;
+    font-size: 32px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.section-title::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background: padding-box rgb(242, 192, 32);
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -30px;
+    border-radius: 1px;
+}
+
+/********** LARGE SCREENS **********/
+
+@media (min-width: 992px) {
+    .promo-content {
+        padding-top: 80px;
+    }
+    .music-section .albums-block .cover-figure .record-holder {
+        right: -80px;
+        display: inline-block;
+    }
+    .music-section .albums-block .cover-figure:hover .record-holder {
+        right: -118px;
+    }
+}
+
+/********** MEDIUM SCREENS **********/
+
+@media (max-width: 768px) {
+    .header {
+        background: rgba(0, 0, 0, 0.9);
+        padding-top: 0px;
+    }
+    .navbar-collapse {
+        box-shadow: none;
+    }
+    .nav>li.active>a {
+        color: rgb(242, 192, 32);
+    }
+    .promo-content {
+        padding-top: 30px;
+    }
+    .promo-content .headline {
+        font-size: 36px;
+    }
+    .gigs-section .gig-actions {
+        position: static;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .gigs-section .gigs-container {
+        margin-left: 200px;
+    }
+    .about-section .item-inner {
+        padding: 15px;
+    }
+    .merch-section .mask-inner {
+        padding-top: 30px;
+    }
+    .music-section .albums-block .item-inner {
+        padding: 0px;
+    }
+    .music-section .albums-block .album-title {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .music-section .albums-block .cover-figure {
+        max-width: 100%;
+        max-height: inherit;
+    }
+    .music-section .albums-block .cover-figure .record-holder {
+        display: none;
+    }
+}
+
+/********** SMALL SCREENS **********/
+
+@media (max-width: 576px) {
+
+    .gigs-section .gigs-container {
+        margin-left: 0px;
+    }
+}
+
