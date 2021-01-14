@@ -757,6 +757,8 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .music-section .albums-block .item-inner {
         padding-right: 80px;
     }
+
+    
 }
 
 /********** LARGE SCREENS **********/
@@ -802,7 +804,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         margin-bottom: 15px;
     }
     .gigs-section .gigs-container {
-        margin-left: 200px;
+        /* margin-left: 200px; */
     }
     .about-section .item-inner {
         padding: 15px;
@@ -857,6 +859,11 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         border: none;
         margin: 15px 50px;
     }
+
+    .gigs-section .item {        
+        border-bottom: 1px solid transparent;
+        margin-left: 150px;
+    }
 }
 
 /********** SMALL SCREENS **********/
@@ -869,5 +876,8 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         /* width: 100%; */
         margin-right: auto;
         margin-left: auto;
+    }
+    .gigs-section .item {   
+    border-bottom: 1px solid rgb(238, 238, 238);
     }
 }
