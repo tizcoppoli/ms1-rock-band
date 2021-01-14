@@ -804,7 +804,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         margin-bottom: 15px;
     }
     .gigs-section .gigs-container {
-        /* margin-left: 200px; */
+        margin-left: 150px;
     }
     .about-section .item-inner {
         padding: 15px;
@@ -862,7 +862,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
 
     .gigs-section .item {        
         border-bottom: 1px solid transparent;
-        margin-left: 150px;
+        
     }
 }
 
