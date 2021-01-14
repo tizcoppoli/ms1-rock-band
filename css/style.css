@@ -735,9 +735,10 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     border-radius: 1px;
 }
 
-/********** LARGE SCREENS **********/
+/********** x-LARGE SCREENS **********/
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
+    
     .promo-content {
         padding-top: 80px;
     }
@@ -748,11 +749,25 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .music-section .albums-block .cover-figure:hover .record-holder {
         right: -118px;
     }
+    
+}
+
+/********** LARGE SCREENS **********/
+
+@media (max-width: 992px) {
+
+    .merch-section .item {
+        margin-bottom: 30px;
+        width: 50%;
+        max-height: 450px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
 }
 
 /********** MEDIUM SCREENS **********/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header {
         background: rgba(0, 0, 0, 0.9);
         padding-top: 0px;
@@ -792,7 +807,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
 
     .merch-section .item {
         margin-bottom: 30px;
-        /* width: 450px; */
+        width: 100%;
         max-height: 450px;
         /* margin-left: auto; */
         /* margin-right: auto; */
@@ -834,6 +849,16 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         margin-right: auto;
         margin-left: auto;
     }
+
+    .music-section .albums-block .cover-figure {
+        max-width: 100%;
+        max-height: inherit;
+        /* background: transparent; */
+        /* padding: 20px; */
+        border: none;
+        margin: 15px 50px;
+    }
+
 }
 
 /********** SMALL SCREENS **********/
@@ -848,4 +873,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         margin-right: auto;
         margin-left: auto;
     }
+
+    
 }
