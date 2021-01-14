@@ -21,6 +21,11 @@ a {
     transition: all 0.4s ease-in-out 0s;
 }
 
+.row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 /********** HEADER **********/
 
 .navbar {
