@@ -789,6 +789,15 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .merch-section .mask-inner {
         padding-top: 30px;
     }
+
+    .merch-section .item {
+        margin-bottom: 30px;
+        /* width: 450px; */
+        max-height: 450px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+
     .music-section .albums-block .item-inner {
         padding: 0px;
     }
@@ -821,7 +830,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     }
 
     .email-form {
-        width: 100%;
+        /* width: 100%; */
         margin-right: auto;
         margin-left: auto;
     }
@@ -832,5 +841,11 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
 @media (max-width: 576px) {
     .gigs-section .gigs-container {
         margin-left: 0px;
+    }
+
+    .email-form {
+        /* width: 100%; */
+        margin-right: auto;
+        margin-left: auto;
     }
 }
