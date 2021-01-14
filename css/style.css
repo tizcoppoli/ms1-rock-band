@@ -453,7 +453,7 @@ a {
 }
 
 .contact-section .contact-block {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .contact-section .contact-block .item {
@@ -513,6 +513,48 @@ a {
 
 .contact-section .social-media-list i {
     font-size: 32px;
+}
+
+.form-block {
+    margin: 0 100px 90px;
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+    border-color: #eee
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="submit"], input[type="button"], textarea {
+    appearance: none;
+    -webkit-appearance: none
+}
+
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 30px
+}
+
+.email-form {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /********** SOCIAL **********/
