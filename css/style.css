@@ -809,6 +809,22 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .merch-section .item .item-inner {
         margin: 0 30px;
     }
+
+    .form-block {
+        margin: 0 10px 50px;
+    }
+
+    .text-form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email-form {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 /********** SMALL SCREENS **********/
