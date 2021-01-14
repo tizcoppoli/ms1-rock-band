@@ -244,7 +244,7 @@ a {
 
 .music-section .albums-block .item-inner {
     position: relative;
-    padding-right: 60px;
+    padding: 20px;
 }
 
 .music-section .albums-block .cover-figure {
@@ -295,6 +295,7 @@ a {
     text-overflow: ellipsis;
     text-align: center;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .music-section .music-action {
@@ -359,7 +360,7 @@ a {
 
 #merch .item img {
     width: 450px;
-    max-height: 450px;      
+    max-height: 450px;
 }
 
 .merch-section {
@@ -368,10 +369,10 @@ a {
 
 .merch-section .item {
     margin-bottom: 30px;
-    width: 450px; 
+    width: 450px;
     max-height: 450px;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
 }
 
 .merch-section .item .item-inner {
@@ -527,7 +528,7 @@ a {
 .form-control {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: none;    
+    box-shadow: none;
     border-color: #eee
 }
 
@@ -743,7 +744,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
 /********** x-LARGE SCREENS **********/
 
 @media (min-width: 1200px) {
-    
     .promo-content {
         padding-top: 80px;
     }
@@ -754,13 +754,14 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .music-section .albums-block .cover-figure:hover .record-holder {
         right: -118px;
     }
-    
+    .music-section .albums-block .item-inner {
+        padding-right: 80px;
+    }
 }
 
 /********** LARGE SCREENS **********/
 
 @media (max-width: 992px) {
-
     .merch-section .item {
         margin-bottom: 30px;
         width: 50%;
@@ -809,7 +810,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .merch-section .mask-inner {
         padding-top: 30px;
     }
-
     .merch-section .item {
         margin-bottom: 30px;
         width: 100%;
@@ -817,7 +817,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         /* margin-left: auto; */
         /* margin-right: auto; */
     }
-
     .music-section .albums-block .item-inner {
         padding: 0px;
     }
@@ -834,27 +833,22 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .music-section .albums-block .cover-figure .record-holder {
         display: none;
     }
-
     .merch-section .item .item-inner {
         margin: 0 30px;
     }
-
     .form-block {
         margin: 0 10px 50px;
     }
-
     .text-form {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-
     .email-form {
         /* width: 100%; */
         margin-right: auto;
         margin-left: auto;
     }
-
     .music-section .albums-block .cover-figure {
         max-width: 100%;
         max-height: inherit;
@@ -863,7 +857,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         border: none;
         margin: 15px 50px;
     }
-
 }
 
 /********** SMALL SCREENS **********/
@@ -872,12 +865,9 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .gigs-section .gigs-container {
         margin-left: 0px;
     }
-
     .email-form {
         /* width: 100%; */
         margin-right: auto;
         margin-left: auto;
     }
-
-    
 }
