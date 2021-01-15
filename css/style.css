@@ -31,6 +31,21 @@ a {
   padding-left: 0px;
 }
 
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-weight: 800;
+  font-size: 32px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
 /********** BUTTONS **********/
 
 .btn {
@@ -129,15 +144,6 @@ a {
   border: 2px solid rgb(16, 17, 19);
 }
 
-.close {
-  background-color: transparent;
-  border: none;
-}
-
-.close span {
-  font-size: 24px;
-}
-
 /********** HEADER **********/
 
 .navbar {
@@ -186,21 +192,7 @@ a {
   font-size: 16px;
 }
 
-/********** HERO IMAGE **********/
-
-#signUpModal label {
-  color: rgb(16, 17, 19);
-  text-transform: capitalize;
-}
-
-#signUpModal .form-group {
-  margin-bottom: 15px;
-}
-
-#signUpModal p {
-  font-size: 16px;
-  color: rgb(79, 84, 94);
-}
+/********** CALLOUT **********/
 
 .callout-container {
   height: 100vh;
@@ -228,13 +220,6 @@ a {
   background-color: transparent;
 }
 
-.logo-holder img {
-  height: 150px;
-  width: 150px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
 .promo-section {
   height: 100%;
   min-height: 660px;
@@ -248,6 +233,13 @@ a {
   padding-top: 80px;
 }
 
+.logo-holder img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 .promo-content .headline {
   font-size: 48px;
   text-transform: uppercase;
@@ -257,6 +249,31 @@ a {
 .promo-content .tagline {
   font-size: 24px;
   margin-bottom: 15px;
+}
+
+/********** MODAL **********/
+
+.close {
+  background-color: transparent;
+  border: none;
+}
+
+.close span {
+  font-size: 24px;
+}
+
+#signUpModal label {
+  color: rgb(16, 17, 19);
+  text-transform: capitalize;
+}
+
+#signUpModal .form-group {
+  margin-bottom: 15px;
+}
+
+#signUpModal p {
+  font-size: 16px;
+  color: rgb(79, 84, 94);
 }
 
 /********** GIGS **********/
@@ -340,16 +357,6 @@ a {
   background: rgb(245, 245, 245);
 }
 
-.music-section .sc-block {
-  margin-bottom: 90px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-.music-section .sc-block .item {
-  margin-bottom: 15px;
-}
-
 .video-block {
   margin-bottom: 50px;
 }
@@ -420,12 +427,6 @@ a {
 
 /********** ABOUT **********/
 
-#about .item img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-
 .about-section .section-title {
   margin-bottom: 30px;
 }
@@ -434,17 +435,6 @@ a {
   margin-bottom: 60px;
   font-size: 16px;
   color: rgb(79, 84, 94);
-}
-
-.about-section .member-name {
-  font-size: 16px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
-.about-section .member-desc {
-  color: rgb(79, 84, 94);
-  margin-bottom: 15px;
 }
 
 .about-section .member-profile {
@@ -460,6 +450,12 @@ a {
   display: inline-block;
 }
 
+#about .item img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
 .about-section .member-label {
   display: inline-block;
   width: 60%;
@@ -473,12 +469,18 @@ a {
   margin-bottom: 30px;
 }
 
-/********** MERCH **********/
-
-#merch .item img {
-  width: 450px;
-  max-height: 450px;
+.about-section .member-name {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
+
+.about-section .member-desc {
+  color: rgb(79, 84, 94);
+  margin-bottom: 15px;
+}
+
+/********** MERCH **********/
 
 .merch-section {
   background: rgb(245, 245, 245);
@@ -494,6 +496,11 @@ a {
 
 .merch-section .item .item-inner {
   position: relative;
+}
+
+#merch .item img {
+  width: 450px;
+  max-height: 450px;
 }
 
 .merch-section .item:hover .mask {
@@ -649,9 +656,7 @@ a {
   border-color: #eee;
 }
 
-input[type="text"],
 input[type="email"],
-input[type="password"],
 input[type="submit"],
 input[type="button"],
 textarea {
@@ -691,36 +696,6 @@ label {
   padding-top: 90px;
 }
 
-.social-block .instagram-block {
-  margin-bottom: 30px;
-  max-width: 800px;
-}
-
-.social-block .instagram-block .title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
-.social-block .instafeed-wrapper {
-  margin-bottom: 30px;
-  overflow: hidden;
-}
-
-.social-block .instagram-item {
-  display: inline-block;
-  padding: 0px;
-  background: rgb(16, 17, 19);
-  opacity: 0.85;
-  position: relative;
-}
-
-.social-block .instagram-item:hover {
-  opacity: 1;
-  transform: scale(1.15);
-  z-index: 10;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
-}
-
 /********** FOOTER **********/
 
 .footer {
@@ -739,38 +714,6 @@ label {
 
 .footer-content {
   padding: 15px;
-}
-
-
-
-/********** SECTIONS **********/
-
-.section {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.section-title {
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 60px;
-  font-weight: 800;
-  font-size: 32px;
-  position: relative;
-  padding-bottom: 5px;
-}
-
-.section-title::after {
-  content: "";
-  display: inline-block;
-  height: 4px;
-  width: 60px;
-  background: padding-box rgb(242, 192, 32);
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  margin-left: -30px;
-  border-radius: 1px;
 }
 
 /********** x-LARGE SCREENS **********/
@@ -889,7 +832,7 @@ label {
   }
 
   .text-form {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
