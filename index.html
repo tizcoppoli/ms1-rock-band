@@ -76,8 +76,8 @@
                             </div>
                             <h2 class="headline">Unforgettable Rock Music</h2>
                             <div class="tagline">Original songs and the best '70 and 80' hits!</div>
-                            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal"
-                                data-target="#signUpModal">Sign Up!</button>
+                            <button class="btn btn-primary btn-cta" data-toggle="modal"
+                                data-target="#signUpModal">Subscribe!</button>
                         </div>
                     </div>
                     <!--//container-->
@@ -538,12 +538,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="text-form">Message</label>
-                                <textarea class="form-control text-form" id="text-form" rows="5"></textarea required>
+                                <textarea class="form-control text-form" id="text-form" rows="5" required></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-cta">Send to us</button>
                             </div>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -594,40 +594,63 @@
     </footer>
     <!--//footer-->
 
-   <!---------- MODAL ----------> 
+    <!---------- MODAL ---------->
 
-<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-<div class="modal-dialog" role="document">
-        <div class="modal-content">
-                               <div class="modal-header">
-                <h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                  </button>
-
-
+    <!-- <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to the newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>                        
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="repeatPassword">Repeat Password</label>
-                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                    </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </form>
+        </div>
+    </div> -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to our newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Subcribe today to not miss any concert in the future!
+                    </p>
+                    <form id="newsletter-form">
+                        <div class="form-group">
+                            <label for="modal-email">Email address</label>
+                            <input type="email" class="form-control" id="modal-email" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" form="newsletter-form">Subscribe</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <!---------- JAVASCRIPT ---------->
 
