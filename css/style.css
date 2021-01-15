@@ -31,6 +31,113 @@ a {
   padding-left: 0px;
 }
 
+/********** BUTTONS **********/
+
+.btn {
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 0px;
+  background-clip: padding-box;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary {
+  background: rgb(242, 192, 32);
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  box-shadow: rgb(187, 145, 11) 0px 0px 0px 0px inset;
+}
+
+.btn-primary:hover {
+  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: rgb(187, 145, 11);
+  border: 2px solid rgb(187, 145, 11);
+  color: rgb(255, 255, 255);
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: rgb(28, 29, 33);
+  border: 2px solid rgb(28, 29, 33);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+}
+
+.btn-secondary:hover {
+  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background: rgb(187, 145, 11);
+  border: 2px solid rgb(187, 145, 11);
+  color: rgb(255, 255, 255);
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-ghost-primary {
+  background: none;
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(242, 192, 32);
+  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+  text-transform: uppercase;
+}
+
+.btn-ghost-primary:active,
+.btn-ghost-primary:focus {
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(242, 192, 32);
+  outline: none;
+}
+
+.btn-ghost-primary:hover {
+  box-shadow: rgb(242, 192, 32) 0px 100px 0px 0px inset;
+  background: rgb(242, 192, 32);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(242, 192, 32);
+}
+
+.btn-ghost-secondary {
+  background: none;
+  border: 2px solid rgb(16, 17, 19);
+  color: rgb(16, 17, 19);
+  box-shadow: rgb(16, 17, 19) 0px 0px 0px 0px inset;
+  text-transform: uppercase;
+}
+
+.btn-ghost-secondary:active,
+.btn-ghost-secondary:focus {
+  border: 2px solid rgb(16, 17, 19);
+  outline: none;
+  color: rgb(16, 17, 19);
+}
+
+.btn-ghost-secondary:hover {
+  background: rgb(16, 17, 19);
+  box-shadow: rgb(16, 17, 19) 0px 100px 0px 0px inset;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(16, 17, 19);
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+}
+
+.close span {
+  font-size: 24px;
+}
+
 /********** HEADER **********/
 
 .navbar {
@@ -82,7 +189,7 @@ a {
 /********** HERO IMAGE **********/
 
 #signUpModal label {
-  color: black;
+  color: rgb(16, 17, 19);
   text-transform: capitalize;
 }
 
@@ -120,20 +227,6 @@ a {
 #promo {
   background-color: transparent;
 }
-
-/* .logo-holder {
-    background-image: url("../assets/images/logo-2.png");
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    background-color: transparent;
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    text-indent: -9999px;
-    overflow: hidden;
-} */
 
 .logo-holder img {
   height: 150px;
@@ -648,135 +741,7 @@ label {
   padding: 15px;
 }
 
-/********** BUTTONS **********/
 
-.btn,
-a.btn {
-  transition: all 0.4s ease-in-out 0s;
-  border-radius: 0px;
-  background-clip: padding-box;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-}
-
-a.btn-primary,
-.btn-primary {
-  background: rgb(242, 192, 32);
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: rgb(187, 145, 11) 0px 0px 0px 0px inset;
-}
-
-a.btn-primary:hover,
-.btn-primary:hover {
-  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
-}
-
-a.btn-primary:hover,
-a.btn-primary:active,
-a.btn-primary:focus,
-a.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus {
-  background: rgb(187, 145, 11);
-  border: 2px solid rgb(187, 145, 11);
-  color: rgb(255, 255, 255);
-  outline: none;
-  box-shadow: none;
-}
-
-a.btn-secondary,
-.btn-secondary {
-  background: rgb(28, 29, 33);
-  border: 2px solid rgb(28, 29, 33);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
-}
-
-a.btn-secondary:hover,
-.btn-secondary:hover {
-  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
-}
-
-a.btn-secondary:hover,
-a.btn-secondary:active,
-a.btn-secondary:focus,
-a.btn-secondary:not(:disabled):not(.disabled):active:focus,
-.btn-secondary:hover,
-.btn-secondary:active,
-.btn-secondary:focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus {
-  background: rgb(187, 145, 11);
-  border: 2px solid rgb(187, 145, 11);
-  color: rgb(255, 255, 255);
-  outline: none;
-  box-shadow: none;
-}
-
-a.btn-ghost-primary,
-.btn-ghost-primary {
-  background: none;
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(242, 192, 32);
-  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
-  text-transform: uppercase;
-}
-
-a.btn-ghost-primary:active,
-a.btn-ghost-primary:focus,
-.btn-ghost-primary:active,
-.btn-ghost-primary:focus {
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(242, 192, 32);
-  outline: none;
-}
-
-a.btn-ghost-primary:hover,
-.btn-ghost-primary:hover {
-  box-shadow: rgb(242, 192, 32) 0px 100px 0px 0px inset;
-  background: rgb(242, 192, 32);
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(242, 192, 32);
-}
-
-a.btn-ghost-secondary,
-.btn-ghost-secondary {
-  background: none;
-  border: 2px solid rgb(16, 17, 19);
-  color: rgb(16, 17, 19);
-  box-shadow: rgb(16, 17, 19) 0px 0px 0px 0px inset;
-  text-transform: uppercase;
-}
-
-a.btn-ghost-secondary:active,
-a.btn-ghost-secondary:focus,
-.btn-ghost-secondary:active,
-.btn-ghost-secondary:focus {
-  border: 2px solid rgb(16, 17, 19);
-  outline: none;
-  color: rgb(16, 17, 19);
-}
-
-a.btn-ghost-secondary:hover,
-.btn-ghost-secondary:hover {
-  background: rgb(16, 17, 19);
-  box-shadow: rgb(16, 17, 19) 0px 100px 0px 0px inset;
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(16, 17, 19);
-}
-
-.close {
-  background-color: transparent;
-  border: none;
-}
-
-.close span {
-  font-size: 24px;
-}
 
 /********** SECTIONS **********/
 
@@ -836,8 +801,6 @@ a.btn-ghost-secondary:hover,
     margin-bottom: 30px;
     width: 50%;
     max-height: 450px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
   }
 }
 
@@ -895,8 +858,6 @@ a.btn-ghost-secondary:hover,
     margin-bottom: 30px;
     width: 100%;
     max-height: 450px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
   }
 
   .music-section .albums-block .item-inner {
@@ -934,7 +895,6 @@ a.btn-ghost-secondary:hover,
   }
 
   .email-form {
-    /* width: 100%; */
     margin-right: auto;
     margin-left: auto;
   }
@@ -942,8 +902,6 @@ a.btn-ghost-secondary:hover,
   .music-section .albums-block .cover-figure {
     max-width: 100%;
     max-height: inherit;
-    /* background: transparent; */
-    /* padding: 20px; */
     border: none;
     margin: 15px 50px;
   }
@@ -961,7 +919,6 @@ a.btn-ghost-secondary:hover,
   }
 
   .email-form {
-    /* width: 100%; */
     margin-right: auto;
     margin-left: auto;
   }
