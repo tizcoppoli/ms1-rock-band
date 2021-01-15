@@ -238,6 +238,10 @@ a {
     margin-bottom: 15px;
 }
 
+.video-block {
+    margin-bottom: 50px;
+}
+
 .music-section .albums-block .item {
     margin-bottom: 45px;
 }
@@ -757,8 +761,6 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
     .music-section .albums-block .item-inner {
         padding-right: 80px;
     }
-
-    
 }
 
 /********** LARGE SCREENS **********/
@@ -859,10 +861,8 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         border: none;
         margin: 15px 50px;
     }
-
-    .gigs-section .item {        
+    .gigs-section .item {
         border-bottom: 1px solid transparent;
-        
     }
 }
 
@@ -877,7 +877,7 @@ a.btn-ghost-secondary:hover, .btn-ghost-secondary:hover {
         margin-right: auto;
         margin-left: auto;
     }
-    .gigs-section .item {   
-    border-bottom: 1px solid rgb(238, 238, 238);
+    .gigs-section .item {
+        border-bottom: 1px solid rgb(238, 238, 238);
     }
 }
