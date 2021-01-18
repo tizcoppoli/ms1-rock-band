@@ -37,11 +37,9 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](https://github.com/)
+  - Home Page Wireframe - [View](wireframe.pdf)
 
   - Mobile Wireframe - [View](https://github.com/)
-
-  - Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
