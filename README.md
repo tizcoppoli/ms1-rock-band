@@ -42,7 +42,7 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 * ### Wireframes
 
   - Home Page Wireframe - [View](assets/images/doc/home.pdf)
-
+  - Tablet Wireframe - [View] (assets/images/doc/tablet.png)
   - Mobile Wireframe - [View](assets/images/doc/mobile.png)
 
 ## Features
@@ -199,7 +199,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- Code for navbar animation taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
+- Code for buttons taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
+- Code for album animation taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
+- Code for merch masks taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
+- Code for modal taken from [Getbootstrap] (https://getbootstrap.com/docs/4.0/components/modal/)
 
 ### Content
 

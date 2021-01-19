@@ -50,6 +50,8 @@ a {
 
 /********** HEADER **********/
 
+/* credit: code for navbar animation taken from https://wrapbootstrap.com and edited slightly to fit project needs */
+
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -249,6 +251,25 @@ a {
   padding: 20px;
 }
 
+.music-section .music-action {
+  margin-top: 30px;
+}
+
+.music-section .albums-block .album-title {
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  max-width: 235px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* credit: code for album animation taken from https://wrapbootstrap.com and edited slightly to fit project needs */
+
 .music-section .albums-block .cover-figure {
   max-width: 235px;
   max-height: 235px;
@@ -285,23 +306,6 @@ a {
   font-weight: 700;
   font-size: 12px;
   padding: 10px;
-}
-
-.music-section .albums-block .album-title {
-  font-size: 14px;
-  margin-bottom: 15px;
-  margin-top: 0px;
-  max-width: 235px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.music-section .music-action {
-  margin-top: 30px;
 }
 
 /********** ABOUT **********/
@@ -382,6 +386,12 @@ a {
   max-height: 450px;
 }
 
+.merch-section .merch-action {
+  margin-top: 30px;
+}
+
+/* credit: code for merch masks taken from https://wrapbootstrap.com and edited slightly to fit project needs */
+
 .merch-section .item:hover .mask {
   visibility: visible;
   opacity: 1;
@@ -430,10 +440,6 @@ a {
   width: 100%;
   overflow: hidden;
   color: rgb(255, 255, 255);
-}
-
-.merch-section .merch-action {
-  margin-top: 30px;
 }
 
 /********** CONTACT **********/
@@ -596,6 +602,7 @@ label {
 }
 
 /********** BUTTONS **********/
+/* credit: code for buttons taken from https://wrapbootstrap.com and edited slightly to fit project needs */
 
 .btn {
   transition: all 0.4s ease-in-out 0s;
