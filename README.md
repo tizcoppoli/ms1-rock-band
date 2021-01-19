@@ -19,7 +19,7 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
   - #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to know more about the album released.
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
     3. As a Returning Visitor, I want to find community links.
 
   - #### Frequent User Goals
@@ -28,18 +28,21 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any new concert date.
 
 - ### Design
+
   - #### Colour Scheme
     - The two main colours used are black and yellow, the logo's colours.
+
   - #### Typography
     - The Source Sans Pro font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Raleway is a clean font used for headings.
+
   - #### Imagery
     - Imagery is important. The large, background hero image is a real picture taken during a live and is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](assets/images/home.png)
+  - Home Page Wireframe - [View](assets/images/home.pdf)
 
-  - Mobile Wireframe - [View](assets/images/mobile.png)
+  - Mobile Wireframe - [View](assets/images/mobile.pdf)
 
 ## Features
 
@@ -58,27 +61,27 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 1. [Bootstrap 5.0.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:](https://fonts.google.com/)
+2. [Google Fonts:](https://fonts.google.com/)
    - Google fonts were used to import the "Raleway" and "Source Sans Pro" font which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
+4. [jQuery:](https://jquery.com/)
    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+5. [Git](https://git-scm.com/)
    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+7. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+8. [Balsamiq:](https://balsamiq.com/)
+   - Balsamiq was used to create the [wireframes](assets/images/home.pdf) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/html-valid.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-valid.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -94,49 +97,44 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
      1. The site has been designed to be fluid and never to entrap the user. At the top there is a clean navigation bar, each link describes what the page they will end up at clearly.
      2. The navbar doesn't hide so the user can go to another section in any moment.
-     3. After the hero image there's the gig section where the user can find the next dates.
+     3. After the hero image there is the gig section where the user can find the next dates.
 
   3. As a First Time Visitor, I want to see a video of the band to understand if I like the music.
 
-     1. Once the new visitor has viewed the callout and the concert dates, they can play an embedded video.
-     2. The user can also see the album released to check if he likes the style.
-     3. The user can also scroll to the bottom on the site to locate social media links.
+     1. Once the new visitor has viewed the callout and the concert dates, they can play an embedded video.     
 
 - #### Returning Visitor Goals
 
   1. As a Returning Visitor, I want to know more about the album released.
 
-     1. These are clearly shown in the banner message.
-     2. They will be directed to a page with another hero image and call to action.
+     1. In the music section the user can see the album released.
+     2. There is the possibility to buy the previous albums and to pre-order the next one.
 
-  2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+  2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
-     1. The navigation bar clearly highlights the "Contact Us" Page.
-     2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-     3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+     1. The navigation bar clearly highlights the "Contact" Page.
+     2. The user is provided with the email addresses for info, bookings and press.
+     3. Alternatively, the user can directly fill out the form on the page.
      4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
      5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
   3. As a Returning Visitor, I want to find community links.
-     1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-     2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-     3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+     1. The YouTube, Facebook, Soundcloud, Instagram, Spotify, Twitter pages can be found at the footer and will open a new tab for the user.     
 
 - #### Frequent User Goals
 
   1. As a Frequent User, I want to check to see if there are any new release.
 
-     1. The user would already be comfortable with the website layout and can easily click the banner message.
+     1. The user would already be comfortable with the website layout and can easily go to the music section to check the most recent album.
 
   2. As a Frequent User, I want to check to see if there are any new items to shop in the store section.
 
-     1. The user would already be comfortable with the website layout and can easily click the blog link
+     1. The user would already be comfortable with the website layout and can easily go to the shop section to see the new items to buy.
 
   3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any new concert date.
 
-     1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-     2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-     3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+     1. In the callout under the headline the user can see the "Subscribe" button and is promped to Enter their email address.
+     2. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
@@ -155,24 +153,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/tizianocoppoli/MS1-rock-band)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.  
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://tizianocoppoli.github.io/MS1-rock-band/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/tizianocoppoli/MS1-rock-band)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/tizianocoppoli/MS1-rock-band)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -200,7 +198,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 ### Content
 
