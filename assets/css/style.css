@@ -1,3 +1,5 @@
+/********** GENERAL **********/
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: rgb(16, 17, 19);
@@ -44,104 +46,6 @@ a {
   font-size: 32px;
   position: relative;
   padding-bottom: 5px;
-}
-
-/********** BUTTONS **********/
-
-.btn {
-  transition: all 0.4s ease-in-out 0s;
-  border-radius: 0px;
-  background-clip: padding-box;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-}
-
-.btn-primary {
-  background: rgb(242, 192, 32);
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: rgb(187, 145, 11) 0px 0px 0px 0px inset;
-}
-
-.btn-primary:hover {
-  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-  background: rgb(187, 145, 11);
-  border: 2px solid rgb(187, 145, 11);
-  color: rgb(255, 255, 255);
-  outline: none;
-  box-shadow: none;
-}
-
-.btn-secondary {
-  background: rgb(28, 29, 33);
-  border: 2px solid rgb(28, 29, 33);
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
-}
-
-.btn-secondary:hover {
-  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
-}
-
-.btn-secondary:hover,
-.btn-secondary:active,
-.btn-secondary:focus {
-  background: rgb(187, 145, 11);
-  border: 2px solid rgb(187, 145, 11);
-  color: rgb(255, 255, 255);
-  outline: none;
-  box-shadow: none;
-}
-
-.btn-ghost-primary {
-  background: none;
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(242, 192, 32);
-  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
-  text-transform: uppercase;
-}
-
-.btn-ghost-primary:active,
-.btn-ghost-primary:focus {
-  border: 2px solid rgb(242, 192, 32);
-  color: rgb(242, 192, 32);
-  outline: none;
-}
-
-.btn-ghost-primary:hover {
-  box-shadow: rgb(242, 192, 32) 0px 100px 0px 0px inset;
-  background: rgb(242, 192, 32);
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(242, 192, 32);
-}
-
-.btn-ghost-secondary {
-  background: none;
-  border: 2px solid rgb(16, 17, 19);
-  color: rgb(16, 17, 19);
-  box-shadow: rgb(16, 17, 19) 0px 0px 0px 0px inset;
-  text-transform: uppercase;
-}
-
-.btn-ghost-secondary:active,
-.btn-ghost-secondary:focus {
-  border: 2px solid rgb(16, 17, 19);
-  outline: none;
-  color: rgb(16, 17, 19);
-}
-
-.btn-ghost-secondary:hover {
-  background: rgb(16, 17, 19);
-  box-shadow: rgb(16, 17, 19) 0px 100px 0px 0px inset;
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(16, 17, 19);
 }
 
 /********** HEADER **********/
@@ -249,31 +153,6 @@ a {
 .promo-content .tagline {
   font-size: 24px;
   margin-bottom: 15px;
-}
-
-/********** MODAL **********/
-
-.close {
-  background-color: transparent;
-  border: none;
-}
-
-.close span {
-  font-size: 24px;
-}
-
-#signUpModal label {
-  color: rgb(16, 17, 19);
-  text-transform: capitalize;
-}
-
-#signUpModal .form-group {
-  margin-bottom: 15px;
-}
-
-#signUpModal p {
-  font-size: 16px;
-  color: rgb(79, 84, 94);
 }
 
 /********** GIGS **********/
@@ -714,6 +593,129 @@ label {
 
 .footer-content {
   padding: 15px;
+}
+
+/********** BUTTONS **********/
+
+.btn {
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 0px;
+  background-clip: padding-box;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary {
+  background: rgb(242, 192, 32);
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  box-shadow: rgb(187, 145, 11) 0px 0px 0px 0px inset;
+}
+
+.btn-primary:hover {
+  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: rgb(187, 145, 11);
+  border: 2px solid rgb(187, 145, 11);
+  color: rgb(255, 255, 255);
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: rgb(28, 29, 33);
+  border: 2px solid rgb(28, 29, 33);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+}
+
+.btn-secondary:hover {
+  box-shadow: rgb(187, 145, 11) 0px 100px 0px 0px inset;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background: rgb(187, 145, 11);
+  border: 2px solid rgb(187, 145, 11);
+  color: rgb(255, 255, 255);
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-ghost-primary {
+  background: none;
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(242, 192, 32);
+  box-shadow: rgb(242, 192, 32) 0px 0px 0px 0px inset;
+  text-transform: uppercase;
+}
+
+.btn-ghost-primary:active,
+.btn-ghost-primary:focus {
+  border: 2px solid rgb(242, 192, 32);
+  color: rgb(242, 192, 32);
+  outline: none;
+}
+
+.btn-ghost-primary:hover {
+  box-shadow: rgb(242, 192, 32) 0px 100px 0px 0px inset;
+  background: rgb(242, 192, 32);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(242, 192, 32);
+}
+
+.btn-ghost-secondary {
+  background: none;
+  border: 2px solid rgb(16, 17, 19);
+  color: rgb(16, 17, 19);
+  box-shadow: rgb(16, 17, 19) 0px 0px 0px 0px inset;
+  text-transform: uppercase;
+}
+
+.btn-ghost-secondary:active,
+.btn-ghost-secondary:focus {
+  border: 2px solid rgb(16, 17, 19);
+  outline: none;
+  color: rgb(16, 17, 19);
+}
+
+.btn-ghost-secondary:hover {
+  background: rgb(16, 17, 19);
+  box-shadow: rgb(16, 17, 19) 0px 100px 0px 0px inset;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(16, 17, 19);
+}
+
+/********** MODAL **********/
+
+.close {
+  background-color: transparent;
+  border: none;
+}
+
+.close span {
+  font-size: 24px;
+}
+
+#signUpModal label {
+  color: rgb(16, 17, 19);
+  text-transform: capitalize;
+}
+
+#signUpModal .form-group {
+  margin-bottom: 15px;
+}
+
+#signUpModal p {
+  font-size: 16px;
+  color: rgb(79, 84, 94);
 }
 
 /********** x-LARGE SCREENS **********/
