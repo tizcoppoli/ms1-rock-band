@@ -2,9 +2,9 @@
 
 [View the live project here.](https://tizianocoppoli.github.io/MS1-rock-band/)
 
-This is the main website for Fiore Nero - Rock Band. It is designed to be responsible and accessible on multiple types of devices, making easy to navigate for fans and customers.
+This is the main website for Fiore Nero - Rock Band. It is designed to be responsible and accessible on multiple devices, making it easy to navigate for fans and customers.
 
-<h2 align="center"><img src="assets/images/mockup.png"></h2>
+<h2 align="center"><img src="assets/images/doc/mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -12,20 +12,20 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
   - #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the genre of the music and learn about the band.
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find the closest concert date.
-    3. As a First Time Visitor, I want to see a video of the band to understand if I like the music.
+    1. As a First Time Visitor, I want to understand the music genre and learn about the band quickly.
+    2. As a First Time Visitor, I want to easily navigate throughout the site to find the closest concert date.
+    3. As a First Time Visitor, I want to see the band's video to understand if I like music.
 
   - #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to know more about the album released.
-    2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
+    2. As a Returning Visitor, I want to find the best way to contact the band with any questions I may have.
     3. As a Returning Visitor, I want to find community links.
 
   - #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any new release.
+    1. As a Frequent User, I want to check to see if there are any new releases.
     2. As a Frequent User, I want to check to see if there are any new items to shop in the store section.
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any new concert date.
+    3. As a Frequent User, I want to sign up for the Newsletter to stay updated with any new concert date.
 
 - ### Design
 
@@ -33,16 +33,17 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
     - The two main colours used are black and yellow, the logo's colours.
 
   - #### Typography
-    - The Source Sans Pro font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Raleway is a clean font used for headings.
+    - The Source Sans Pro font is the main font used throughout the whole website, with Sans Serif as the fallback font in a case for any reason the font isn't being imported into the site correctly.
+    - Raleway is a clean font used for headings.
 
   - #### Imagery
-    - Imagery is important. The large, background hero image is a real picture taken during a live and is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - Imagery is important. The large background hero image is a real picture taken during a concert and is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](assets/images/home.pdf)
+  - Home Page Wireframe - [View](assets/images/doc/home.pdf)
 
-  - Mobile Wireframe - [View](assets/images/mobile.pdf)
+  - Mobile Wireframe - [View](assets/images/doc/mobile.pdf)
 
 ## Features
 
@@ -74,14 +75,14 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 7. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 8. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](assets/images/home.pdf) during the design process.
+   - Balsamiq was used to create the [wireframes](assets/images/doc/home.pdf) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/html-valid.png)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-valid.png)
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/html-valid.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/css-valid.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -89,37 +90,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   1. As a First Time Visitor, I want to easily understand the genre of the music.
 
-     1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text "Unforgettable Rock Music".
-     2. The main points are made immediately with the hero image
+     1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to their choice section. Underneath, there is a Hero Image with the text "Unforgettable Rock Music".
+     2. The main points are made immediately with the hero image.
      3. The user can scroll down to discover more.
 
   2. 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find the closest concert date.
 
-     1. The site has been designed to be fluid and never to entrap the user. At the top there is a clean navigation bar, each link describes what the page they will end up at clearly.
-     2. The navbar doesn't hide so the user can go to another section in any moment.
-     3. After the hero image there is the gig section where the user can find the next dates.
+     1. The site has been designed to be fluid and never to entrap the user. At the top, there is a clean navigation bar. Each link describes the page they will end up at clearly.
+     2. The navbar doesn't hide so that the user can go to another section at any moment.
+     3. After the hero image, there is the gig section where the user can find the next dates.
 
   3. As a First Time Visitor, I want to see a video of the band to understand if I like the music.
 
-     1. Once the new visitor has viewed the callout and the concert dates, they can play an embedded video.     
+     1. Once the new visitor has viewed the callout and the concert dates, they can play an embedded video.  
 
 - #### Returning Visitor Goals
 
   1. As a Returning Visitor, I want to know more about the album released.
 
-     1. In the music section the user can see the album released.
+     1. In the music section, the user can see the album released.
      2. There is the possibility to buy the previous albums and to pre-order the next one.
 
   2. As a Returning Visitor, I want to find the best way to get in contact with the band with any questions I may have.
 
-     1. The navigation bar clearly highlights the "Contact" Page.
-     2. The user is provided with the email addresses for info, bookings and press.
+     1. The navigation bar highlights the "Contact" Page.
+     2. The user is provided with the email addresses for info, bookings, and press.
      3. Alternatively, the user can directly fill out the form on the page.
      4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-     5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+     5. The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
   3. As a Returning Visitor, I want to find community links.
-     1. The YouTube, Facebook, Soundcloud, Instagram, Spotify, Twitter pages can be found at the footer and will open a new tab for the user.     
+     1. The YouTube, Facebook, Soundcloud, Instagram, Spotify, and Twitter pages can be found at the footer and open a new tab.    
 
 - #### Frequent User Goals
 
@@ -133,8 +134,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any new concert date.
 
-     1. In the callout under the headline the user can see the "Subscribe" button and is promped to Enter their email address.
-     2. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+     1. In the callout, under the headline, the user can see the "Subscribe" button and is prompted to Enter their email address.
+     2. There is a "Submit" button to the right-hand side of the input field, located close to the field and can easily be distinguished.
 
 ### Further Testing
 
