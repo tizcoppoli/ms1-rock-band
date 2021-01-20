@@ -4,7 +4,7 @@
 
 This is the main website for Fiore Nero - Rock Band. It is designed to be responsible and accessible on multiple devices, making it easy to navigate for fans and customers.
 
-<h2 align="center"><img src="assets/images/doc/mockup.png"></h2>
+<h2 align="center"><img src="assets/doc/mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -41,9 +41,9 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](assets/images/doc/home.pdf)
-  - Tablet Wireframe - [View](assets/images/doc/tablet.pdf)
-  - Mobile Wireframe - [View](assets/images/doc/mobile.pdf)
+  - Home Page Wireframe - [View](assets/doc/home.pdf)
+  - Tablet Wireframe - [View](assets/doc/tablet.pdf)
+  - Mobile Wireframe - [View](assets/doc/mobile.png)
 
 ## Features
 
@@ -100,7 +100,7 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 7. [Paint.net:](https://www.getpaint.net/)
    - Paint.net was used to create the logo, resizing images and editing photos for the website.
 8. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](assets/images/doc/home.pdf) during the design process.
+   - Balsamiq was used to create the [wireframes](assets/doc/home.pdf) during the design process.
 9. [Visual Studio Code:](https://code.visualstudio.com/)
    - Visual Studio Code was used to write code, commit to Git and Push to GitHub.
 
@@ -108,12 +108,12 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/html-valid.png)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/css-valid.png)
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/doc/html-valid.png)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/doc/css-valid.png)
 
 The deployed site was tested with Lighthouse for performance evaluation and with Responsinator for responsiveness.
 
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/images/doc/lighthouse.png)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/doc/lighthouse.png)
 - [Responsinator](http://www.responsinator.com/) - [Results](http://www.responsinator.com/?url=https%3A%2F%2Ftizianocoppoli.github.io%2Fms1-rock-band%2F)
 
 
