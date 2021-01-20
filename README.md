@@ -68,7 +68,7 @@ The site's primary goal is to provide an official place where to find informatio
 - The gigs section features the next concert dates and the buttons to discover more and buy the tickets in advance. The layout is different for small screens. At the bottom of the section, there is a button to book a private gig.
 
 ### Music
-- The music section features a video from youtube (only for medium and large screens) and three albums. The user can click on the buttons under the album cover, so buy or preorder the album. When the user hovers with the mouse on the album cover on large screens, there is an animation with a record. At the bottom of this section, there is a button to check the music on iTunes.
+- The music section features a video (only for medium and large screens) and three albums. The user can click on the buttons under the album cover, so buy or preorder the album. When the user hovers with the mouse on the album cover on large screens, there is an animation with a record. At the bottom of this section, there is a button to check the music on iTunes.
 
 ### About
 - The about section features the band members with an image, label, and description. The layout is different for small, medium, and large screens.
