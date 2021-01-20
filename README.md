@@ -48,8 +48,33 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 ## Features
 
 - Responsive on all device sizes
-
 - Interactive elements
+
+- ### Navbar
+- The navbar has a little animation on loading, in small screens is collapsed
+
+- ### Callout
+- The callout section features a hero image, a logo visible only in large screens and a subscribe button. If the user clicks on the button a popup form appears to leave the email address.
+
+- ### Gigs
+- The gigs section features the next concert dates and the buttons to discover more and buy the tickets in advance. The layout is different for small screens. At the bottom of the section there is a button to book a private gig.
+
+- ### Music
+- The music section features a video from youtube (only for medium and large screens) and 3 albums. The user can click on the buttons under the album cover so buy or preorder the album. On large screens only when the user hover with the mouse on the album cover there is an animation with a record. At the bottom of this section there is a button to check the music on iTunes.
+
+- ### About
+- The about section features the band members with an image, label and description. The layout is different for small, medium, and large screens.
+
+- ### Merch
+- The merch section features four items the user can buy. If the user hover with the mouse on the item a button to buy and a description will show. The layout is different for small screens. At the bottom of the section there is a button to check more items.
+
+- ### Contact
+- The contact section features three links to send an email for info, booking and press. Under the links there is a contact form with an email input and a textarea. Under the contact form there are the social links.
+
+### Features Left to Implement
+- More contact forms in pop-ups to contact the band without going to the end of the page.
+- A carousel of pictures from previous concerts.
+
 
 ## Technologies Used
 
@@ -60,7 +85,7 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 5.0.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
    - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Google Fonts:](https://fonts.google.com/)
    - Google fonts were used to import the "Raleway" and "Source Sans Pro" font which is used on all pages throughout the project.
@@ -69,13 +94,15 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 4. [jQuery:](https://jquery.com/)
    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 5. [Git](https://git-scm.com/)
-   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+   - Git was used for version control.
 6. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
-7. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-   - Photoshop was used to create the logo, resizing images and editing photos for the website.
+7. [Paint.net:](https://www.getpaint.net/)
+   - Paint.net was used to create the logo, resizing images and editing photos for the website.
 8. [Balsamiq:](https://balsamiq.com/)
    - Balsamiq was used to create the [wireframes](assets/images/doc/home.pdf) during the design process.
+9. [Visual Studio Code:](https://code.visualstudio.com/)
+   - Visual Studio Code was used to write code, commit to Git and Push to GitHub.
 
 ## Testing
 
@@ -84,7 +111,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/html-valid.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/css-valid.png)
 
-The deployed site was tested with [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/images/doc/lighthouse.png)
+The deployed site was tested with Lighthouse for performances evaluation and with Responsinator for responsiveness.
+
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/images/doc/lighthouse.png)
+- [Responsinator](http://www.responsinator.com/) - [Results](http://www.responsinator.com/?url=https%3A%2F%2Ftizianocoppoli.github.io%2Fms1-rock-band%2F)
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -219,12 +249,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-- Code for navbar animation taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
-- Code for buttons taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
-- Code for album animation taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
-- Code for merch masks taken from [Wrapbootstrap] (https://wrapbootstrap.com/)
-- Code for modal taken from [Getbootstrap] (https://getbootstrap.com/docs/4.0/components/modal/)
+- [Bootstrap 4.1.3](https://getbootstrap.com/docs/4.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- Code for navbar animation taken from [Wrapbootstrap](https://wrapbootstrap.com/)
+- Code for buttons taken from [Wrapbootstrap](https://wrapbootstrap.com/)
+- Code for album animation taken from [Wrapbootstrap](https://wrapbootstrap.com/)
+- Code for merch masks taken from [Wrapbootstrap](https://wrapbootstrap.com/)
+- Code for modal taken from [Getbootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ### Content
 
@@ -235,9 +265,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 - All Images were created by the developer.
+- Photos given by Tommaso of Fiore Nero.
 
 ### Acknowledgements
 
 - My Mentor for continuous helpful feedback.
-
 - Tutor support at Code Institute for their support.
