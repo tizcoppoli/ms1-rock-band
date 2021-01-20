@@ -84,6 +84,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/html-valid.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/css-valid.png)
 
+The deployed site was tested with [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/images/doc/lighthouse.png)
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 - #### First Time Visitor Goals
