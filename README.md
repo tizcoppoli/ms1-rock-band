@@ -8,6 +8,14 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 
 ## User Experience (UX)
 
+### Project Goals
+
+The site's primary goal is to provide an official place where to find information about the band, the concerts, the music in an enjoyable manner and sell albums and merchandising to fans. The site has three target audience:
+
+- First time visitors (newcomers).
+- Returning visitors (people who already like the band).
+- Frequent visitors (real fans).
+
 - ### User stories
 
   - #### First Time Visitor Goals
