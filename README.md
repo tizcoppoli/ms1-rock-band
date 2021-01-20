@@ -42,34 +42,34 @@ This is the main website for Fiore Nero - Rock Band. It is designed to be respon
 * ### Wireframes
 
   - Home Page Wireframe - [View](assets/images/doc/home.pdf)
-  - Tablet Wireframe - [View](assets/images/doc/tablet.png)
-  - Mobile Wireframe - [View](assets/images/doc/mobile.png)
+  - Tablet Wireframe - [View](assets/images/doc/tablet.pdf)
+  - Mobile Wireframe - [View](assets/images/doc/mobile.pdf)
 
 ## Features
 
 - Responsive on all device sizes
 - Interactive elements
 
-- ### Navbar
-- The navbar has a little animation on loading, in small screens is collapsed
+### Navbar
+- The navbar has a little animation on loading. In small screens is collapsed.
 
-- ### Callout
-- The callout section features a hero image, a logo visible only in large screens and a subscribe button. If the user clicks on the button a popup form appears to leave the email address.
+### Callout
+- The callout section features a hero image, a logo visible only on large screens, and a subscribe button. If the user clicks on the button, a pop-up form appears to leave the email address.
 
-- ### Gigs
-- The gigs section features the next concert dates and the buttons to discover more and buy the tickets in advance. The layout is different for small screens. At the bottom of the section there is a button to book a private gig.
+### Gigs
+- The gigs section features the next concert dates and the buttons to discover more and buy the tickets in advance. The layout is different for small screens. At the bottom of the section, there is a button to book a private gig.
 
-- ### Music
-- The music section features a video from youtube (only for medium and large screens) and 3 albums. The user can click on the buttons under the album cover so buy or preorder the album. On large screens only when the user hover with the mouse on the album cover there is an animation with a record. At the bottom of this section there is a button to check the music on iTunes.
+### Music
+- The music section features a video from youtube (only for medium and large screens) and three albums. The user can click on the buttons under the album cover, so buy or preorder the album. When the user hovers with the mouse on the album cover on large screens, there is an animation with a record. At the bottom of this section, there is a button to check the music on iTunes.
 
-- ### About
-- The about section features the band members with an image, label and description. The layout is different for small, medium, and large screens.
+### About
+- The about section features the band members with an image, label, and description. The layout is different for small, medium, and large screens.
 
-- ### Merch
-- The merch section features four items the user can buy. If the user hover with the mouse on the item a button to buy and a description will show. The layout is different for small screens. At the bottom of the section there is a button to check more items.
+### Merch
+- The merch section features four items the user can buy. If the user hovers with the mouse on the item, a button to purchase and a description will show. The layout is different for small screens. At the bottom of the section, there is a button to check more items.
 
-- ### Contact
-- The contact section features three links to send an email for info, booking and press. Under the links there is a contact form with an email input and a textarea. Under the contact form there are the social links.
+### Contact
+- The contact section features three links to send an email for info, booking, and press. Under the links, there is a contact form with an email input and a textarea. Under the contact form, there are social links.
 
 ### Features Left to Implement
 - More contact forms in pop-ups to contact the band without going to the end of the page.
@@ -111,7 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/html-valid.png)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/doc/css-valid.png)
 
-The deployed site was tested with Lighthouse for performances evaluation and with Responsinator for responsiveness.
+The deployed site was tested with Lighthouse for performance evaluation and with Responsinator for responsiveness.
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - [Results](assets/images/doc/lighthouse.png)
 - [Responsinator](http://www.responsinator.com/) - [Results](http://www.responsinator.com/?url=https%3A%2F%2Ftizianocoppoli.github.io%2Fms1-rock-band%2F)
