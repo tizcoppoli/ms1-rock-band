@@ -148,6 +148,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The site doesn't fully support screen sizes less than 320px.
 
+### Solved Bugs
+
+- For small screen size (375px) there was an extra padding by default in the bootstrap row solved with custom css:
+```
+.row > * {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+```
+
+- The logo doesn't look good in rotated small devices, solved by hiding in small and medium screens:
+```
+<div class="logo-holder d-none d-lg-block">
+                                <img src="assets/images/logo/logo-2.png" alt="logo">
+                            </div>
+```
+
 ## Deployment
 
 ### GitHub Pages
