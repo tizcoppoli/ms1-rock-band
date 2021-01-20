@@ -1,6 +1,6 @@
 <h1 align="center">Fiore Nero Website</h1>
 
-[View the live project here.](https://tizianocoppoli.github.io/MS1-rock-band/)
+[View the live project here.](https://tizianocoppoli.github.io/ms1-rock-band/)
 
 This is the main website for Fiore Nero - Rock Band. It is designed to be responsible and accessible on multiple devices, making it easy to navigate for fans and customers.
 
@@ -56,7 +56,10 @@ The site's primary goal is to provide an official place where to find informatio
 ## Features
 
 - Responsive on all device sizes
-- Interactive elements
+- Interactive album covers
+- Subscribe button with pop-up form
+- Interactive video
+- Contact form
 
 ### Navbar
 - The navbar has a little animation on loading. In small screens is collapsed.
@@ -82,7 +85,6 @@ The site's primary goal is to provide an official place where to find informatio
 ### Features Left to Implement
 - More contact forms in pop-ups to contact the band without going to the end of the page.
 - A carousel of pictures from previous concerts.
-
 
 ## Technologies Used
 
@@ -180,7 +182,7 @@ The deployed site was tested with Lighthouse for performance evaluation and with
 
 ### Further Testing
 
-- The Website was tested on Google Chrome and Microsoft Edge.
+- The Website was tested on Google Chrome, Firefox and Microsoft Edge.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX, iPad.
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Band members were asked to review the site to point out any bugs and/or user experience issues.
